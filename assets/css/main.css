@@ -1,12 +1,10 @@
-
 @import url(./font/icomoon.css);
 @import url(https://fonts.googleapis.com/css?family=Google+Sans:300,400,500,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Snippet|Bungee+Hairline|Megrim);
 
 body{
     margin: 0;
-    /* background-color: white; */
-    background-color: black;
+    background-color: white;
 }
 
 /* Global */
@@ -34,10 +32,9 @@ body{
 /* Navigation */
 #nav{
     width: 100%;
-    /* height: 60px; */
-    height: 54px;
+    height: 60px;
     background-color: white;
-    /* border-bottom: 1px solid #00000017; */
+    border-bottom: 1px solid #00000017;
     top: 0;
     position: sticky;
     display: flex;
@@ -46,8 +43,8 @@ body{
 
     /* Title */
     #nav-title{
-        font-size: 29px;
-        /* font-size: 34px; */
+        /* font-size: 27px; */
+        font-size: 34px;
         margin-left: 30px;
         margin-right: 2px;
         /* font-family: 'Snippet', sans-serif; */
@@ -56,12 +53,11 @@ body{
     }
 
     #nav-title-2{
-        margin-top: -16px;
-        /* margin-top: -19px; */
+        /* margin-top: -15px; */
+        margin-top: -19px;
         font-family: 'Bungee Hairline', cursive;
         font-weight: 600;
-        /* font-size: 10px; */
-        font-size: 9px;
+        font-size: 10px;
         color: black;
     }
 
@@ -74,8 +70,7 @@ body{
         border-radius: 3px;
         padding: 4px 12px;
         padding: 1px 12px;
-        /* font-size: 15px; */
-        font-size: 14px;
+        font-size: 15px;
         display: inline-block;
     }
 
@@ -93,7 +88,7 @@ body{
         /* border-color: purple; */
         color: purple;
     }
-
+    
     #nav-vote{
         padding: 4px 14px;
         margin-left: 10px;
@@ -123,11 +118,9 @@ body{
 /* Content */
 #content{
     width: 100%;
-    /* height: calc(100vh - 61px); */
-    height: calc(100vh - 57px);
+    height: calc(100vh - 61px);
     background: #07125aad;
     display: flex;
-    flex-direction: column-reverse;
 }
 
     /* Main */
@@ -137,13 +130,11 @@ body{
         /* box-shadow: 0 0 5px 0 rgba(0,0,0,0.35); */
         text-align: left;
         /* width: 19vw; */
-        /* width: 67px; */
+        width: 67px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        /* flex-direction: column; */
-        flex-direction: row;
-        z-index: 2;
+        flex-direction: column;
     }
 
     .content-nav-item{
@@ -153,13 +144,11 @@ body{
         transition: opacity 0.2s ease-in-out;
         width: -webkit-fill-available;
         /* height: -webkit-fill-available; */
-        /* height: 78px; */
-        height: 45px;
+        height: 78px;
         /* padding: 40px; */
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 17px;
     }
 
     .content-nav-item:hover{
@@ -205,100 +194,8 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 3;
     }
-
-
-/* Responsive */
-@media only screen and (max-width: 1023px){
-    .block{
-        flex-direction: column !important;
-    }
-    .block-right{
-        width: unset !important;
-    }
-    .card-preview {
-        width: 70vw !important;
-    }
-
-    .title-big{
-        line-height: 45px;
-    }
-}
-
-@media only screen and (max-width: 639px){
-    #nav-vote, #nav-support, #nav-dashboard{
-        display: none !important;
-    }
-
-    #placeholder {
-        padding: 0 !important;
-    }
-    #card {
-        width: -webkit-fill-available !important;
-        height: -webkit-fill-available !important;
-        border-radius: 0 !important;
-        box-shadow: none !important;
-    }
-
-    .block-header .icon{
-        font-size: 2.0em !important;
-        padding-bottom: 0 !important;
-    }
-    .title-big{
-        font-size: 25px !important;
-        line-height: 30px !important;
-    }
-    .placeholder-3{
-        margin-top: 10px !important;
-    }
-    .card-preview {
-        width: 90vw !important;
-    }
-
-    .block{
-        padding: 20px !important;
-    }
-    .cmd-big{
-        font-size: 29px !important;
-        padding: 7px !important;
-    }
-    .function {
-        padding: 14px !important;
-    }
-
-    .about-1{
-        padding: 23px 0px !important;
-    }
-    .card-content{
-        font-size: 16px;
-        line-height: 20px;
-        padding: 20px !important;
-    }
-    #backbone{
-        display: none !important;
-    }
-}
-
-@media only screen and (max-width: 374px){
-    #nav-invite {
-        display: none;
-    }
-
-    #header{
-        padding: 20px !important;
-    }
-    #header-title{
-        font-size: 34px !important;
-    }
-
-    #navcmd .cmd{
-        flex-grow: 1;
-    }
-    .placeholder-3{
-        padding: 0 !important;
-    }
-}
+    
 
 /* Splash Screen */
 #splash{
@@ -315,7 +212,6 @@ body{
     background-color: white;
     background-size: cover;
     background-position: left top;
-    z-index: 9999;
 }
 
 #splash-progress{
