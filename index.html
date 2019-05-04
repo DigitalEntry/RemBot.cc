@@ -1,0 +1,100 @@
+<!-- REM-OFFICIAL.GITHUB.IO -->
+<!-- Originated from The Felix Organization in Palace Road, Kingdom de Lugnica. Production conducted by lee.wp14 (https://leewp14.github.io). -->
+<!-- This website is covered with a MIT License, in reference to the LICENSE attached in this website's official GitHub Repository. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Enforce HTTPS -->
+        <script type="application/javascript">
+            {
+                var loc = window.location.href+'';
+                if (loc.indexOf('http://')==0 && window.location.hostname.search('localhost')=='-1' && window.location.hostname.search('10.0.1')=='-1'){
+                window.location.href = loc.replace('http://','https://');}
+            }
+        </script>
+
+        <!-- Meta Tags -->
+        <title>REM Official</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="REM - A fun yet feature-rich Discord bot" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta property="og:site_name" content="rem official" />
+        <meta property="og:title" content="REM Official" />
+        <meta property="og:description" content="It's officially REM. At your service. " />
+        <meta property="og:url" content="https://rem-official.github.io" />
+        <meta property="og:image" content="https://rem-official.github.io/assets/img/icon.webp" />
+
+        <!-- Disable browser-side caching (doesn't seem to work tho ._.) -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+
+        <!-- Local Assets -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="icon" href="assets/img/icon.webp">
+        <script src="assets/js/main.js"></script>
+
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64243736-7"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-64243736-7');
+        </script>
+    </head>
+
+    <body onload="initSite();">
+        <!-- Navigation Bar -->
+        <nav id="nav">
+            <a id="nav-title" href="" class="no-text-deco font-google-sans no-select">REM <a id="nav-title-2" class="no-select">Official</a></a>
+            <div id="nav-placeholder" class="font-google-sans no-select">
+                <a id="nav-invite" class="nav-button nav-button-primary transition no-text-deco" href="invite">
+                    INVITE
+                    <div id="nav-stats-server_count"></div>
+                </a>
+                <a id="nav-vote" class="nav-button nav-button-secondary transition no-text-deco" href="vote">
+                    VOTE
+                    <div id="nav-stats-monthlyPoints"></div>
+                </a>
+                <a id="nav-support" class="nav-button nav-button-secondary transition no-text-deco" href="support">SUPPORT</a>
+                <a id="nav-dashboard" class="nav-button nav-button-secondary transition no-text-deco" href="support">DASHBOARD</a>
+            </div>
+            <a id="nav-login" class="no-text-deco font-google-sans transition no-select" onclick="openDashboard();">SIGN IN</a>
+        </nav>
+
+        <!-- General Placeholder -->
+        <div id="content">
+            <div id="content-nav" class="no-select">
+                <div onclick="initContent('main')" id="content-nav-item-1" class="content-nav-item font-google-sans">
+                    <span class="icon icon-home"></span>
+                </div>
+                <div onclick="initContent('features')" id="content-nav-item-2" class="content-nav-item font-google-sans">
+                    <span class="icon icon-magic-wand"></span>
+                </div>
+                <div onclick="initContent('documentation')" id="content-nav-item-3" class="content-nav-item font-google-sans">
+                    <span class="icon icon-file-text2"></span>
+                </div>
+                <div onclick="initContent('about')" id="content-nav-item-4" class="content-nav-item font-google-sans">
+                    <span class="icon icon-info"></span>
+                </div>
+                <div onclick="initContent('partners')" id="content-nav-item-5" class="content-nav-item font-google-sans">
+                    <span class="icon icon-make-group"></span>
+                </div>
+            </div>
+
+            <!-- Content Placeholder -->
+            <div id="content-view" class="font-google-sans transition">
+                <!-- To be filled by JS :) -->
+            </div>
+        </div>
+
+        <!-- Splash Screen -->
+        <div id="splash">
+            <div id="splash-progress">REM</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,386 @@
+<div id="placeholder">
+    <div id="header" class="no-select">
+        <span id="header-icon" class="icon icon-info"></span>
+        <a id="header-title">ABOUT</a>
+    </div>
+    <div id="placeholder-2" class="no-select">
+        <div class="card" id="intro">
+            <div class="card-content">
+                I was made by Entry#0001 when he was sitting down at his chair when he had the sudden urge to make his own bot. <br>His inspiration comes from the first bot he ever used. The bot's name was Rem and was made by Wolke#0001. Sadly Wolke's bot went down so Entry decided to make his own.
+            </div>
+        </div>
+        <div id="bot-owner-1" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">MEET THE DADDY</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/283236977602592778/a_e5fa368e4284cfa45336ea5e542fee38.gif?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@Entry</div>
+                    <div>Rem Developer</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">SUB DEV (FRONTEND) </a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/401648495515402240/69d94cd8c0cb09e67778d7e3e195344f.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@lee.wp14</div>
+                    <div>Felix ain't a trap</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">HEAD ADMIN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/277389655140466698/40f11a2ad0ecf04ca1fb41a4eea02e8c.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@Illuvium</div>
+                    <div>Rem is my life <3</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">HEAD ADMIN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/attachments/423235406620917780/463745535925420032/a_11a71c8b5a4637e163c234b13e38be62.gif?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@BerChin</div>
+                    <div>Rem's best mod</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">ADMIN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/210719903970361344/a_0518b410367b47cead2d3d8198edaa33.gif?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@ScrappyHaxor</div>
+                    <div>Another mad dev :)</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">ADMIN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/attachments/461604892625207297/471869587579863040/512.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@Unholy</div>
+                    <div>You wanna fucking Razzle Dazzle?</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">ADMIN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/217683752606760960/3a6f352145a5bdcfcebcc0c53706edd3.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@lilac</div>
+                    <div>♡♡♡ Entry ♡♡♡</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">ADMIN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/383068633645187092/577dd2eeb8ed55a1d21dff30abc6685e.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@hibikiw</div>
+                    <div>oi</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">MODERATOR</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/261190376268890123/1b0e818d2f227c59818f4bbec3716287.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@analyst</div>
+                    <div>Not a weeb, just an otaku</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">INTERN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/448678659784441856/d9376dad9358dddec43e600bff3e91b3.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@ChocoDippy</div>
+                    <div>[placeholder]</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">INTERN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/380547900934979584/8c768b8a9011ccaef0efe8e8b75ac502.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@Infinity_Otaku</div>
+                    <div>[placeholder]</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">INTERN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/138498233432276992/7ec684e59f2ea95df5de847628bc564a.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@Etho</div>
+                    <div>Headass that watched every long anime</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">INTERN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/218824947655639040/9677cde4256ce15b560509e748c9fb15.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@Coke</div>
+                    <div>Coke, the slave of the server</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">INTERN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/455190042516652032/6f6965f881462afe4bed66de6d3ad2e5.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@Tet</div>
+                    <div>[placeholder]</div>
+                </div>
+            </div>
+        </div>
+        <div id="bot-owner-2" class="card card-2">
+            <div class="card-header">
+                <span class="icon icon-circle-right"></span>
+                <a class="card-text">INTERN</a>
+            </div>
+            <div class="card-content bot-owner">
+                <img class="bot-owner-avatar" src="https://cdn.discordapp.com/avatars/409840171966660629/799fec5f9942b605fe001d8305ece3c1.png?size=512">
+                <div class="bot-owner-info">
+                    <div class="bot-owner-name">@Sinon</div>
+                    <div>I'm here now :)</div>
+                </div>
+            </div>
+        </div>
+        <div class="card" id="backbone">
+            <div id="backbone-2" class="card-content">
+                <a>Lo <text id="backbone-rem" class="backbone-true">REM</text> ipsum <text class="backbone-true" id="backbone-poweredby">POWERED BY</text> dolor sit amet, consectetur adipiscing <text id="backbone-php" class="backbone-true">php</text> elit. Nam lorem odio, malesuada non <text id="backbone-discordjs" class="backbone-true">discord.js</text> purus ac, pharetra euismod leo. Suspendisse sem turpis, blandit varius nibh sed, faucibus <text id="backbone-nodejs" class="backbone-true">nodejs</text> vestibulum erat. </a>
+                <br>
+                <a href="https://discordbots.org/bot/413385786344472576" >
+                    <img src="https://discordbots.org/api/widget/413385786344472576.svg" alt="Rem" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    #placeholder{
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+
+    #header{
+        background-color: #fffffff2;
+        padding: 25px;
+        display: flex;font-size: 28px;
+        padding-right: 20px;
+        width: -webkit-fill-available;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
+
+    #header-icon{
+        opacity: 0.8;
+        font-size: 28px;
+        padding-right: 20px;
+    }
+
+    #header-title{
+        font-size: 40px;
+        font-family: 'Megrim', cursive;
+    }
+
+    #placeholder-2{
+        width: -webkit-fill-available;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px;
+    }
+
+    .card{
+        width: fit-content;
+        height: fit-content;
+        background: white;
+        margin: 10px;
+        /* padding: 40px; */
+        /* padding: 24px; */
+        padding: 4px;
+        /* flex-grow: 1; */
+        /* flex-basis: 0; */
+        /* flex-shrink: 1; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        /* box-shadow: 0 0 5px 0 rgba(0,0,0,0.35); */
+        box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.29);
+    }
+
+    .card-2{
+        padding: 0px;
+    }
+
+    .card-header{
+        padding: 17px 0px;
+        color: white;
+    }
+
+    .card-icon{
+        font-size: 90px;
+        opacity: 0.8;
+    }
+
+    .card-text{
+        margin: 14px;
+    }
+
+    .card-content{
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card-preview{
+        width: -webkit-fill-available;
+        border-radius: 4px;
+    }
+
+    #intro{
+        background: #f6e9ffde;
+    }
+
+    #bot-owner-1{
+        background: linear-gradient(to top left, rgb(218, 68, 83), rgb(137, 33, 107));
+    }
+
+    #bot-owner-2{
+        background: linear-gradient(to top right, rgb(218, 68, 83), rgb(137, 33, 107));
+    }
+
+    .bot-owner{
+        /* background: #fec4d5; */
+        background: linear-gradient(to bottom right, #27b0b0b8, #fec4d5);
+        /* border: 1px solid black; */
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .bot-owner-avatar{
+        border-radius: 50%;
+        border: 4px solid #ff00fc08;
+        width: 279px;
+    }
+
+    .bot-owner-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* padding-left: 24px; */
+        padding-top: 29px;
+    }
+
+    .bot-owner-name{
+        color: rgb(85, 26, 139);
+        font-size: 40px;
+        padding-bottom: 7px;
+        text-decoration: underline;
+    }
+
+    #backbone{
+        /* background: #2b3244; */
+        background: #36393f;
+    }
+
+    #backbone-2{
+        /* color: #515151; */
+        color: #72767d;
+        width: 400px;
+        font-size: 14px;
+    }
+
+    .backbone-true{
+        color: whitesmoke;
+        font-size: x-large;
+    }
+
+    #backbone-rem{
+        border: 1px solid white;
+        font-size: xx-large;
+        font-weight: 500;
+    }
+
+    #backbone-poweredby{
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    #backbone-php{
+        color: orange;
+    }
+
+    #backbone-discordjs{
+        color: turquoise;
+    }
+
+    #backbone-nodejs{
+        color: greenyellow;
+    }
+
+</style>

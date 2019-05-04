@@ -1,0 +1,291 @@
+<div id="placeholder">
+    <div id="header" class="no-select">
+        <span id="header-icon" class="icon icon-make-group"></span>
+        <a id="header-title">PARTNERS</a>
+    </div>
+    <div id="placeholder-2" class="no-select">
+        <div id="prefix" class="block">
+            <div class="block-header">
+                <div class="title-big">PARTNER INFO</div>
+                <div class="cmd cmd-big">d!partner</div>
+            </div>
+        </div>
+        <div id="navcmd" class="block">
+            <div class="block-header">
+                <div class="cmd cmd-big" onclick="scrollIntoViewz('partner-server');">PARTNERED SERVERS</div>
+                <div class="cmd cmd-big" onclick="scrollIntoViewz('partner-bot');">PARTNERED BOTS</div>
+                <div class="cmd cmd-big" onclick="scrollIntoViewz('partner-info');">MEE WAN PARTNER :3</div>
+            </div>
+        </div>
+        <div id="partner-server" class="block block-2">
+            <div class="block-header">
+                <div class="title-big">REM'S PARTNER SERVER</div>
+            </div>
+            <div class="placeholder-3">
+                <div class="partner">
+                    From Another Universe
+                    <div class="placeholder-4">
+                        <div class="cmd" onclick="joinServer('DzjbWWr');">discord.gg/DzjbWWr</div>
+                    </div>
+                </div>
+                <div class="partner">
+                    ♥The Otaku Hangout♥
+                    <div class="placeholder-4">
+                        <div class="cmd" onclick="joinServer('eEdwjEB');">discord.gg/eEdwjEB</div>
+                    </div>
+                </div>
+                 <div class="partner">
+                    Decelerate; The Axis Order
+                    <div class="placeholder-4">
+                        <div class="cmd" onclick="joinServer('yUjguQv');">discord.gg/yUjguQv</div>
+                    </div>
+                </div>
+                <div class="partner">
+                    Friends Forever
+                    <div class="placeholder-4">
+                        <div class="cmd" onclick="joinServer('XSvkzfR');">discord.gg/XSvkzfR</div>
+                    </div>
+                </div>
+                <div class="partner">
+                    Aurora
+                    <div class="placeholder-4">
+                        <div class="cmd" onclick="joinServer('SGnCzVa');">discord.gg/SGnCzVa</div>
+                    </div>
+                </div>
+                <div class="partner">
+                    Einvasion
+                    <div class="placeholder-4">
+                        <div class="cmd" onclick="joinServer('zadbvmD');">discord.gg/zadbvmD</div>
+                    </div>
+                </div>
+                <div class="partner">
+                    Cells At Work
+                    <div class="placeholder-4">
+                        <div class="cmd" onclick="joinServer('U8rkTsr');">discord.gg/U8rkTsr</div>
+                    </div>
+                </div>
+                <div class="partner">
+                    Loli Zone
+                    <div class="placeholder-4">
+                        <div class="cmd" onclick="joinServer('Ue89h6P');">discord.gg/Ue89h6P</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="partner-bot" class="block block-2">
+            <div class="block-header">
+                <div class="title-big">REM'S PARTNER BOTS</div>
+            </div>
+        </div>
+        <div id="partner-info" class="block block-2">
+            <div class="block-header">
+                <div class="title-big">MEE WAN PARTNER :3</div>
+            </div>
+            <div class="placeholder-3">
+                <div class="placeholder-3-desc">
+                    In order to be eligible of being REM's partner server/bot, the following partnership requirements must be fulfilled:
+                </div>
+                <div class="partner">
+                    SERVER PARTNERSHIP
+                    <div class="placeholder-4">
+                        - You must be in our Support Server (if you leave you lose partnership)
+                        <br>
+                        - Guild must have 250+ members
+                        <br>
+                        - No open NSFW channels (a NSFW role must exist)
+                        <br>
+                        - Server must be full of actual members, not bots
+                        <br>
+                        - Server must be active (At least 500 messages a day)
+                        <br>
+                        - Server must have Rem in it, If the bot is kicked the partnership will be revoked
+                    </div>
+                </div>
+                <div class="partner">
+                    BOT PARTNERSHIP
+                    <div class="placeholder-4">
+                        - You must be in our Support Server (if you leave your partnership gets revoked)
+                        <br>
+                        - Bot must be in at least 1000 guilds
+                        <br>
+                        - Must be online almost 24/7 (no frequent downtime)
+                    </div>
+                </div>
+                <br>
+                If you see your server/bot fulfilled all the above requirements, feel free to join our Support Server and get in touch with @DigitalEntry :)
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    #placeholder {
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+
+    #header {
+        background-color: #fffffff2;
+        padding: 25px;
+        display: flex;
+        font-size: 28px;
+        padding-right: 20px;
+        width: -webkit-fill-available;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
+
+    #header-icon {
+        opacity: 0.8;
+        font-size: 28px;
+        padding-right: 20px;
+    }
+
+    #header-title {
+        font-size: 40px;
+        font-family: 'Megrim', cursive;
+    }
+
+    #placeholder-2 {
+        width: -webkit-fill-available;
+        display: flex;
+        flex-wrap: wrap;
+        /* padding: 40px; */
+        margin-top: 21px;
+    }
+
+    .block{
+        display: flex;
+        align-items: flex-start;
+        width: -webkit-fill-available;
+        height: max-content;
+        padding: 40px;
+    }
+
+    .block-2{
+        flex-direction: column;
+    }
+
+    .block-header{
+        display: flex;
+        align-items: center;
+        width: -webkit-fill-available;
+
+    }
+
+    .title-big{
+        font-size: 50px;
+        flex-grow: 1;
+        padding: 10px 0px;
+    }
+
+    .cmd{
+        border: 2px solid black;
+        background: #393939;
+        color: white;
+        width: fit-content;
+        padding: 3px 6px;
+        /* margin: 0px 3px; */
+        margin: 2px 3px;
+        user-select: all;
+    }
+
+    .cmd-big{
+        font-size: 40px;
+        padding: 10px;
+        margin: unset;
+    }
+
+    .placeholder-3{
+        padding: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: -webkit-fill-available;
+        margin-top: 20px;
+    }
+
+    .placeholder-3-desc{
+        padding-bottom: 10px;
+    }
+
+    .partner{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        margin: 2px;
+        border: 2px solid black;
+        /* flex-grow: 1; */
+        align-items: center;
+    }
+
+    .partner .cmd{
+        cursor: pointer;
+    }
+
+    .placeholder-4{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #prefix, #navcmd{
+        background: #f5f5f5;
+    }
+
+    #navcmd .block-header{
+        flex-wrap: wrap;
+    }
+
+    #navcmd .cmd{
+        transition: 0.2s all ease-in-out;
+        user-select: inherit;
+        background: unset;
+        color: black;
+        margin: 2px;
+        padding: 14px;
+        cursor: pointer;
+    }
+
+    #navcmd .cmd:hover {
+        border-color: blueviolet;
+    }
+
+    #partner-server{
+        background: #ffcf94;
+    }
+
+    #partner-bot{
+        background: #ffcdfb;
+    }
+
+    #partner-bot .cmd{
+        user-select: none;
+    }
+
+    #partner-info{
+        background: #d0e7ff;
+    }
+
+    #partner-info .placeholder-3{
+        flex-direction: column;
+    }
+
+    #partner-info .partner{
+        align-items: inherit;
+        width: -webkit-fill-available;
+    }
+
+    #partner-info .placeholder-4{
+        border-left: 2px solid #0027ff;
+        padding: 9px;
+        background: #282828;
+        color: #ffffffd9;
+        line-height: 1.5;
+        font-size: 17px;
+    }
+
+</style>
