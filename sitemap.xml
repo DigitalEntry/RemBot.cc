@@ -2,12 +2,12 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://digitalentry.xyz/</loc>
+      <loc>https://rembot.cc/</loc>
 
       <lastmod>2019-5-4</lastmod>
       <!-- YYYY-MM-DD -->
 
-      <changefreq>daily</changefreq>
+      <changefreq>monthly</changefreq>
       <priority>1.0</priority>
    </url>
 </urlset>
