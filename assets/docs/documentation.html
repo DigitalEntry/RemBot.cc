@@ -14,7 +14,6 @@
         </div>
         <div id="navcmd" class="block">
             <div class="block-header">
-                <div class="cmd cmd-big" onclick="scrollIntoViewz('moderation');">MODERATION</div>
                 <div class="cmd cmd-big" onclick="scrollIntoViewz('administration');">ADMINISTRATION</div>
                 <div class="cmd cmd-big" onclick="scrollIntoViewz('economy');">ECONOMY</div>
                 <div class="cmd cmd-big" onclick="scrollIntoViewz('inventory');">INVENTORY</div>
@@ -23,40 +22,27 @@
                 <div class="cmd cmd-big" onclick="scrollIntoViewz('information');">INFORMATION</div>
             </div>
         </div>
-        <div id="moderation" class="block block-2">
-            <div class="block-header">
-                <div class="title-big">MODERATION</div>
-            </div>
-            <div class="placeholder-3">
-                <div class="function">
-                    Kicks someone from the server
-                    <div class="placeholder-4">
-                        <div class="cmd">d!kick</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Bans someone from the server
-                    <div class="placeholder-4">
-                        <div class="cmd">d!ban</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Deletes messages in the current channel
-                    <div class="placeholder-4">
-                        <div class="cmd">d!purge</div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div id="administration" class="block block-2">
             <div class="block-header">
                 <div class="title-big">ADMINISTRATION</div>
             </div>
             <div class="placeholder-3">
                 <div class="function">
-                    Configure REM
+                    Changes the type of currency you use. You can also use a server emoji
                     <div class="placeholder-4">
-                        <div class="cmd">d!config</div>
+                        <div class="cmd">d!changecurrency</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Change the Prefix
+                    <div class="placeholder-4">
+                        <div class="cmd">d!prefix</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Reset the server or a specific user
+                    <div class="placeholder-4">
+                        <div class="cmd">d!reset</div>
                     </div>
                 </div>
                 <div class="function">
@@ -65,6 +51,7 @@
                         <div class="cmd">d!say</div>
                     </div>
                 </div>
+
             </div>
         </div>
         <div id="economy" class="block block-2">
@@ -77,6 +64,21 @@
                     <div class="placeholder-4">
                         <div class="cmd">d!profile</div>
                         <div class="cmd">d!p</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Checks your global profile
+                    <div class="placeholder-4">
+                        <div class="cmd">d!globalprofile</div>
+                        <div class="cmd">d!globalp</div>
+                        <div class="cmd">d!gp</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Checks your money
+                    <div class="placeholder-4">
+                        <div class="cmd">d!balance</div>
+                        <div class="cmd">d!bal</div>
                     </div>
                 </div>
                 <div class="function">
@@ -96,27 +98,28 @@
                     </div>
                 </div>
                 <div class="function">
-                    Give someone a reputation point
-                    <div class="placeholder-4">
-                        <div class="cmd">d!rep</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Free daily cash!!!
+                    Claim a daily reward every day
                     <div class="placeholder-4">
                         <div class="cmd">d!daily</div>
                     </div>
                 </div>
                 <div class="function">
-                    Wakeup and make money, yo!
+                    Go to work and earn some quick money
                     <div class="placeholder-4">
                         <div class="cmd">d!work</div>
                     </div>
                 </div>
                 <div class="function">
-                    Stealing is not good kid
+                    Stealing some money and get some quick money
                     <div class="placeholder-4">
                         <div class="cmd">d!steal</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Check the leaderboard
+                    <div class="placeholder-4">
+                        <div class="cmd">d!leaderboard</div>
+                        <div class="cmd">d!lb</div>
                     </div>
                 </div>
                 <div class="function">
@@ -158,37 +161,13 @@
             </div>
             <div class="placeholder-3">
                 <div class="function">
-                    The Marketplace of Lugnica!
-                    <div class="placeholder-4">
-                        <div class="cmd">d!marketplace</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Buy marketplace items
-                    <div class="placeholder-4">
-                        <div class="cmd">d!buy</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Checks your inventory items
-                    <div class="placeholder-4">
-                        <div class="cmd">d!cv</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Checks the balance of your money
-                    <div class="placeholder-4">
-                        <div class="cmd">d!bal</div>
-                    </div>
-                </div>
-                <div class="function">
-                    I can see bullets flying oof
+                    Shoot a user and take their money
                     <div class="placeholder-4">
                         <div class="cmd">d!shoot</div>
                     </div>
                 </div>
                 <div class="function">
-                    Ouch!
+                    Stab a user and take their money
                     <div class="placeholder-4">
                         <div class="cmd">d!stab</div>
                     </div>
@@ -208,26 +187,15 @@
                 <div class="function">
                     Check crate prices
                     <div class="placeholder-4">
-                        <div class="cmd">d!crateprices</div>
+                        <div class="cmd">d!crates</div>
                     </div>
                 </div>
                 <div class="function">
-                    Donate an item to a user
+                    Check statistics of a Weapon, Crate, or User
                     <div class="placeholder-4">
-                        <div class="cmd">d!donate</div>
-                        <div class="cmd">d!transfer</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Sell an item
-                    <div class="placeholder-4">
-                        <div class="cmd">d!sell</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Check stats of a weapon
-                    <div class="placeholder-4">
+                        <div class="cmd">d!statistics</div>
                         <div class="cmd">d!stats</div>
+                        <div class="cmd">d!stat</div>
                     </div>
                 </div>
             </div>
@@ -262,14 +230,23 @@
                     </div>
                 </div>
                 <div class="function">
-                    Rock, Paper, Scissors!
+                    Marry a user
                     <div class="placeholder-4">
-                        <div class="cmd">d!rps</div>
+                        <div class="cmd">d!marry</div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="image" class="block block-2">
+            <div class="block-header">
+                <div class="title-big">IMAGE</div>
+            </div>
+            <div class="placeholder-3">
                 <div class="function">
-                    Galleria de Lugnica
+                    Image Commands
                     <div class="placeholder-4">
+                        <div class="cmd">d!rem</div>
+                        <div class="cmd">d!neko</div>
                         <div class="cmd">d!awoo</div>
                         <div class="cmd">d!slap</div>
                         <div class="cmd">d!pat</div>
@@ -285,26 +262,24 @@
                         <div class="cmd">d!lick</div>
                         <div class="cmd">d!tickle</div>
                         <div class="cmd">d!sleepy</div>
+                        <div class="cmd">d!blush</div>
+                        <div class="cmd">d!owo</div>
+                        <div class="cmd">d!stare</div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="image" class="block block-2">
+        <div id="nsfw" class="block block-2">
             <div class="block-header">
                 <div class="title-big">IMAGE</div>
             </div>
             <div class="placeholder-3">
                 <div class="function">
-                    Galleria de Lugnica
+                    NSFW Commands (Only works in NSFW channels)
                     <div class="placeholder-4">
-                        <div class="cmd">d!rem</div>
-                        <div class="cmd">d!remgif</div>
-                        <div class="cmd">d!ram</div>
-                        <div class="cmd">d!subaru</div>
-                        <div class="cmd">d!emilia</div>
-                        <div class="cmd">d!felix</div>
-                        <div class="cmd">d!felt</div>
-                        <div class="cmd">d!neko</div>
+                        <div class="cmd">d!remlewd</div>
+                        <div class="cmd">d!nekolewd</div>
+                        <div class="cmd">d!thighs</div>
                     </div>
                 </div>
             </div>
@@ -315,15 +290,28 @@
             </div>
             <div class="placeholder-3">
                 <div class="function">
-                    Check REM's info
+                    Check the command list
                     <div class="placeholder-4">
-                        <div class="cmd">d!info</div>
+                        <div class="cmd">d!help</div>
                     </div>
                 </div>
                 <div class="function">
-                    Check REM's uptime
+                    Check the current versions changelog
                     <div class="placeholder-4">
-                        <div class="cmd">d!uptime</div>
+                        <div class="cmd">d!changelog</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Report a problem to the Bot Admins
+                    <div class="placeholder-4">
+                        <div class="cmd">d!report</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Suggest a feature to the developer
+                    <div class="placeholder-4">
+                        <div class="cmd">d!suggestion</div>
+                        <div class="cmd">d!suggest</div>
                     </div>
                 </div>
             </div>
@@ -456,7 +444,7 @@
         border-color: blueviolet;
     }
 
-    #moderation{
+    #nsfw{
         background: #ff97ff;
     }
 
@@ -478,17 +466,6 @@
 
     #image{
         background: #ac97ff;
-    }
-
-    #nsfw{
-        filter: invert(100);
-        background: #bbfff9;
-    }
-
-    #nsfw .cmd {
-        filter: invert(100);
-        border-color: white;
-        background: #700000;
     }
 
     #information{
