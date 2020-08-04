@@ -91,7 +91,6 @@ function fetchUser() {
     const Http = new XMLHttpRequest();
     const url = 'http://api.rembot.cc/api/v1/websitedata';
     Http.open("GET", url);
-    Http.setRequestHeader("Upgrade-Insecure-Requests", "1");
     Http.send();
 
     Http.onreadystatechange = function () {
