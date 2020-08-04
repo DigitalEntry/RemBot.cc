@@ -49,7 +49,8 @@ function loadContent(args) {
             scrollIntoViewz('placeholder');
             // For About section
             if (args == 'about') {
-                // fetchUser();
+                console.log("fetching about");
+                fetchUser();
             }
         }
     }
@@ -85,7 +86,20 @@ function fetchUser() {
         )
     document.getElementById('userInject').innerHTML = 'Constructing Pylons...';
 
-    var xhr = new XMLHttpRequest();
+    console.log("getting information");
+
+    const Http = new XMLHttpRequest();
+    const url = 'http://api.rembot.cc/api/v1/websitedata';
+    Http.open("GET", url);
+    Http.send();
+
+    Http.onreadystatechange = function () {
+        if (this.readyState == 4) {
+            injectUser(Http.responseText);
+        }
+    }
+
+    /*var xhr = new XMLHttpRequest();
     xhr.withCredentials = true;
 
     xhr.addEventListener("readystatechange", function () {
@@ -99,23 +113,19 @@ function fetchUser() {
             xhr.addEventListener("readystatechange", function () {
                 if (this.readyState === 4) {
                     var respond = JSON.parse(this.responseText);
+                    console.log(respond);
                     injectUser(respond);
                 }
             });
 
-            xhr.open("POST", 'https://leewp14.nsupdate.info/rem-official/api/fetchUser/');
+            xhr.open("GET", 'http://localhost:50091/websitedata');
             xhr.setRequestHeader("content-type", "application/json");
             xhr.setRequestHeader("cache-control", "no-cache");
 
             xhr.send(data);
         }
     });
-
-    xhr.open("GET", "assets/docs/about/fetchUser.json");
-    xhr.setRequestHeader("content-type", "application/json");
-    xhr.setRequestHeader("cache-control", "no-cache");
-
-    xhr.send();
+    */
 
     // var xhr = new XMLHttpRequest();
     // xhr.withCredentials = true;
@@ -136,22 +146,22 @@ function fetchUser() {
 
 function injectUser(args) {
     var coco = [];
-    for (i in userJSON.user) {
-        userid = args[i].id;
-        username = args[i].username;
-        useravatar = args[i].avatar;
-        useravatarurl = 'https://cdn.discordapp.com/avatars/' + userid + '/' + useravatar;
+    var data = JSON.parse(args);
+    console.log(data.user);
+
+    for (i in data.user) {
+        username = data.user[i];
+        title = data.title[i];
+        useravatar = data.avatar[i];
         string1 =
             '<div id="bot-owner-1" class="card card-2"><div class="card-header"><span class="icon icon-circle-right"></span><a class="card-text">' +
-            userJSON.title[i] +
+            title +
             '</a></div ><div class="card-content bot-owner"><img class="bot-owner-avatar" src="' +
-            useravatarurl +
-            '.gif?size=512" onerror="this.onerror=null;this.src=' + "'" +
-            useravatarurl +
-            ".png?size=512'" + '"><div class="bot-owner-info"><div class="bot-owner-name">@' +
-            username + '</div>' +
-            userJSON.desc[i] +
-            '</div></div></div>';
+            useravatar +
+            'onerror="this.onerror=null;this.src=' + "'" +
+            useravatar +
+            '"><div class="bot-owner-info"><div class="bot-owner-name">@' +
+            username + '</div> ' + '</div></div></div>';
 
         coco.push(string1);
 

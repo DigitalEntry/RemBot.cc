@@ -179,6 +179,10 @@ body{
         background: lightsalmon;
     }
 
+    #content-nav-item-6 {
+        background: lightseagreen;
+    }
+
     #content-view{
         width: -webkit-fill-available;
         height: -webkit-fill-available;
