@@ -89,7 +89,7 @@ function fetchUser() {
     console.log("getting information");
 
     const Http = new XMLHttpRequest();
-    const url = 'http://api.rembot.cc/api/v1/websitedata';
+    const url = 'https://api.rembot.cc/api/v1/websitedata';
     Http.open("GET", url);
     Http.send();
 
