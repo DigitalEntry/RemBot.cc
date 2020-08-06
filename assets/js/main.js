@@ -91,6 +91,7 @@ function fetchUser() {
     const Http = new XMLHttpRequest();
     const url = 'https://api.rembot.cc/api/v1/websitedata';
     Http.open("GET", url);
+    Http.setRequestHeader("Access-Control-Allow-Origin", "*");
     Http.send();
 
     Http.onreadystatechange = function () {
