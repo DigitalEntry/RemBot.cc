@@ -34,6 +34,9 @@ function initContent(args) {
             } else if (args == 'partners') {
                 setActive(5);
                 currentElement = args;
+            } else if (args == 'changelog') {
+                setActive(5);
+                currentElement = args;
             }
         }
     }else{
@@ -204,7 +207,7 @@ function injectStats(){
 function callContent(args) {
     var isCalled = false;
     if (args == 'page') {
-        var pages = ['features', 'documentation', 'about', 'partners'];
+        var pages = ['features', 'documentation', 'about', 'partners', 'changelog'];
         if (pages.indexOf(getUrlParams().page) != '-1') {
             initContent(getUrlParams().page);
             isCalled = true;
