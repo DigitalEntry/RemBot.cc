@@ -92,7 +92,7 @@ function fetchUser() {
     console.log("getting information");
 
     const Http = new XMLHttpRequest();
-    const url = 'https://api.rembot.cc:2096/api/v1/websitedata';
+    const url = 'https://api.rembot.cc:2096/api/v2/websitedata';
     Http.open("GET", url);
     Http.setRequestHeader("Access-Control-Allow-Origin", "*");
     Http.send();
