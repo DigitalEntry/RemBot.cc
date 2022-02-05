@@ -12,46 +12,20 @@
                 <div class="cmd cmd-big">d!help</div>
             </div>
         </div>
-        <div id="navcmd" class="block">
+        <div id="configcmd" class="block">
             <div class="block-header">
-                <div class="cmd cmd-big" onclick="scrollIntoViewz('administration');">ADMINISTRATION</div>
-                <div class="cmd cmd-big" onclick="scrollIntoViewz('economy');">ECONOMY</div>
-                <div class="cmd cmd-big" onclick="scrollIntoViewz('inventory');">INVENTORY</div>
-                <div class="cmd cmd-big" onclick="scrollIntoViewz('fun');">FUN</div>
-                <div class="cmd cmd-big" onclick="scrollIntoViewz('image');">IMAGE</div>
-                <div class="cmd cmd-big" onclick="scrollIntoViewz('nsfw');">NSFW</div>
-                <div class="cmd cmd-big" onclick="scrollIntoViewz('information');">INFORMATION</div>
+                <div class="title-big">CONFIGURATION</div>
+                <div class="cmd cmd-big">d!config</div>
             </div>
         </div>
-        <div id="administration" class="block block-2">
+        <div id="navcmd" class="block">
             <div class="block-header">
-                <div class="title-big">ADMINISTRATION</div>
-            </div>
-            <div class="placeholder-3">
-                <div class="function">
-                    Changes the type of currency you use. You can also use a server emoji
-                    <div class="placeholder-4">
-                        <div class="cmd">d!changecurrency</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Change the Prefix
-                    <div class="placeholder-4">
-                        <div class="cmd">d!setprefix</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Reset the server or a specific user
-                    <div class="placeholder-4">
-                        <div class="cmd">d!reset</div>
-                    </div>
-                </div>
-                <div class="function">
-                    echo :-)
-                    <div class="placeholder-4">
-                        <div class="cmd">d!say</div>
-                    </div>
-                </div>
+                <div class="cmd cmd-big" onclick="scrollIntoViewz('economy');">ECONOMY</div>
+                <div class="cmd cmd-big" onclick="scrollIntoViewz('inventory');">ITEMS/INVENTORY</div>
+                <div class="cmd cmd-big" onclick="scrollIntoViewz('image');">IMAGE</div>
+                <div class="cmd cmd-big" onclick="scrollIntoViewz('nsfw');">NSFW</div>
+                <div class="cmd cmd-big" onclick="scrollIntoViewz('miscellaneous');">MISCELLANEOUS</div>
+                <div class="cmd cmd-big" onclick="scrollIntoViewz('information');">INFORMATION</div>
             </div>
         </div>
         <div id="economy" class="block block-2">
@@ -64,14 +38,6 @@
                     <div class="placeholder-4">
                         <div class="cmd">d!profile</div>
                         <div class="cmd">d!p</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Checks your global profile
-                    <div class="placeholder-4">
-                        <div class="cmd">d!globalprofile</div>
-                        <div class="cmd">d!globalp</div>
-                        <div class="cmd">d!gp</div>
                     </div>
                 </div>
                 <div class="function">
@@ -104,6 +70,18 @@
                     </div>
                 </div>
                 <div class="function">
+                    Claim your reward for being a premium user or having a special role in the support server
+                    <div class="placeholder-4">
+                        <div class="cmd">d!reward</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Shows the current challenges and the reward for completing the challenge
+                    <div class="placeholder-4">
+                        <div class="cmd">d!challenges</div>
+                    </div>
+                </div>
+                <div class="function">
                     Go to work and earn some quick money
                     <div class="placeholder-4">
                         <div class="cmd">d!work</div>
@@ -117,16 +95,9 @@
                     </div>
                 </div>
                 <div class="function">
-                    Check the leaderboard
+                    Place a bounty on someone
                     <div class="placeholder-4">
-                        <div class="cmd">d!leaderboard</div>
-                        <div class="cmd">d!lb</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Gamble 50x2
-                    <div class="placeholder-4">
-                        <div class="cmd">d!50x2</div>
+                        <div class="cmd">d!bounty</div>
                     </div>
                 </div>
                 <div class="function">
@@ -144,39 +115,26 @@
                         <div class="cmd">d!r</div>
                     </div>
                 </div>
-                <div class="function">
-                    Jackpot
-                    <div class="placeholder-4">
-                        <div class="cmd">d!jackpot</div>
-                        <div class="cmd">d!jp</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Donate cash to a user
-                    <div class="placeholder-4">
-                        <div class="cmd">d!donate</div>
-                        <div class="cmd">d!transfer</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Get a gift if you vote for the bot
-                    <div class="placeholder-4">
-                        <div class="cmd">d!vote</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Get a gift for supporting the bot
-                    <div class="placeholder-4">
-                        <div class="cmd">d!claim</div>
-                    </div>
-                </div>
             </div>
         </div>
         <div id="inventory" class="block block-2">
             <div class="block-header">
-                <div class="title-big">INVENTORY</div>
+                <div class="title-big">ITEMS/INVENTORY</div>
             </div>
             <div class="placeholder-3">
+                <div class="function">
+                    Look at yours or another users inventory
+                    <div class="placeholder-4">
+                        <div class="cmd">d!inventory</div>
+                        <div class="cmd">d!inv</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Reapir an item from your inventory with money
+                    <div class="placeholder-4">
+                        <div class="cmd">d!repair</div>
+                    </div>
+                </div>
                 <div class="function">
                     Shoot a user and take their money
                     <div class="placeholder-4">
@@ -233,48 +191,11 @@
                         <div class="cmd">d!eat</div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div id="fun" class="block block-2">
-            <div class="block-header">
-                <div class="title-big">FUN</div>
-            </div>
-            <div class="placeholder-3">
                 <div class="function">
-                    Ask me a random question!
+                    Shows current battle pass tiers and what tier you are at
                     <div class="placeholder-4">
-                        <div class="cmd">d!8ball</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Shows the avatar of a user
-                    <div class="placeholder-4">
-                        <div class="cmd">d!avatar</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Flips a quarter
-                    <div class="placeholder-4">
-                        <div class="cmd">d!flip</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Rolls a dice
-                    <div class="placeholder-4">
-                        <div class="cmd">d!roll</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Searches up an anime
-                    <div class="placeholder-4">
-                        <div class="cmd">d!animesearch</div>
-                        <div class="cmd">d!anisearch</div>
-                    </div>
-                </div>
-                <div class="function">
-                    Get a random anime, You can include the year and the genre if needed
-                    <div class="placeholder-4">
-                        <div class="cmd">d!randomanime</div>
+                        <div class="cmd">d!battlepass</div>
+                        <div class="cmd">d!bp</div>
                     </div>
                 </div>
             </div>
@@ -288,24 +209,18 @@
                     Image Commands
                     <div class="placeholder-4">
                         <div class="cmd">d!rem</div>
+                        <div class="cmd">d!ram</div>
+                        <div class="cmd">d!emilia</div>
                         <div class="cmd">d!neko</div>
-                        <div class="cmd">d!awoo</div>
                         <div class="cmd">d!slap</div>
                         <div class="cmd">d!pat</div>
                         <div class="cmd">d!kiss</div>
                         <div class="cmd">d!hug</div>
                         <div class="cmd">d!cuddle</div>
-                        <div class="cmd">d!cry</div>
-                        <div class="cmd">d!bite</div>
                         <div class="cmd">d!punch</div>
-                        <div class="cmd">d!smug</div>
-                        <div class="cmd">d!dance</div>
                         <div class="cmd">d!poke</div>
                         <div class="cmd">d!lick</div>
                         <div class="cmd">d!tickle</div>
-                        <div class="cmd">d!sleepy</div>
-                        <div class="cmd">d!blush</div>
-                        <div class="cmd">d!owo</div>
                         <div class="cmd">d!stare</div>
                     </div>
                 </div>
@@ -320,8 +235,63 @@
                     NSFW Commands (Only works in NSFW channels)
                     <div class="placeholder-4">
                         <div class="cmd">d!remlewd</div>
+                        <div class="cmd">d!ramlewd</div>
+                        <div class="cmd">d!emilialewd</div>
                         <div class="cmd">d!nekolewd</div>
                         <div class="cmd">d!thighs</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="miscellaneous" class="block block-2">
+            <div class="block-header">
+                <div class="title-big">MISCELLANEOUS</div>
+            </div>
+            <div class="placeholder-3">
+                <div class="function">
+                    Shows the avatar of a user
+                    <div class="placeholder-4">
+                        <div class="cmd">d!avatar</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Gets the statistics for or another user
+                    <div class="placeholder-4">
+                        <div class="cmd">d!statistics</div>
+                        <div class="cmd">d!stats</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Searches for the given waifu and gives you information about them
+                    <div class="placeholder-4">
+                        <div class="cmd">d!waifu</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Claims a waifu that was rolled from waifu roll or dropped naturally
+                    <div class="placeholder-4">
+                        <div class="cmd">d!waifuclaim</div>
+                        <div class="cmd">d!wclaim</div>
+                        <div class="cmd">d!claimwaifu</div>
+                        <div class="cmd">d!claimw</div>
+                        <div class="cmd">d!cw</div>
+                        <div class="cmd">d!wc</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Check the waifus you claimed
+                    <div class="placeholder-4">
+                        <div class="cmd">d!winventory</div>
+                        <div class="cmd">d!waifuinventory</div>
+                        <div class="cmd">d!inventoryw</div>
+                        <div class="cmd">d!winv</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Searches up an anime
+                    <div class="placeholder-4">
+                        <div class="cmd">d!animesearch</div>
+                        <div class="cmd">d!anisearch</div>
                     </div>
                 </div>
             </div>
@@ -335,6 +305,24 @@
                     Check the command list
                     <div class="placeholder-4">
                         <div class="cmd">d!help</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Sends you the invite link where you can invite the bot to your own server
+                    <div class="placeholder-4">
+                        <div class="cmd">d!invite</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Gets Rem's info/stats
+                    <div class="placeholder-4">
+                        <div class="cmd">d!info</div>
+                    </div>
+                </div>
+                <div class="function">
+                    Let's you edit the server config.
+                    <div class="placeholder-4">
+                        <div class="cmd">d!config</div>
                     </div>
                 </div>
                 <div class="function">
@@ -467,7 +455,9 @@
     #prefix, #chkcmd, #navcmd{
         background: #f5f5f5;
     }
-
+    #prefix, #configcmd, #navcmd{
+        background: #f5f5f5;
+    }
     #navcmd .block-header{
         flex-wrap: wrap;
     }
@@ -490,10 +480,6 @@
         background: #ff97ff;
     }
 
-    #administration{
-        background: #91c2ff;
-    }
-
     #economy{
         background: #97ffbc;
     }
@@ -502,7 +488,7 @@
         background: #ffc797;
     }
 
-    #fun{
+    #miscellaneous{
         background: #ff9797;
     }
 
